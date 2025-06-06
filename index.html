@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--atribut, ki pravilno izpisuje šumnike-->
+    <title>Programiranje za otroke v okolju Scratch</title>
+    <!--naslov samega dokumenta, ki se pojavi v zavihku-->
+    <link rel="stylesheet" href="stil.css">
+    <!--v stran uveljavi datoteko, ki določa stil in obliko spletne strani in njenih elementov-->
+</head>
+
+<body>
+    <header>
+    <h1 class="glavni_naslov">Programiranje za otroke v okolju Scratch</h1>
+    <nav>
+        <!--navigacija spletne strani, povezave med njimi-->
+        <!--navadne povezave do podstrani sem označila z razredom "iztocnica", z razredom "iztocnica_s_postranmi" sem označila povezavo, ki ob stiku z miško prikaže dve postrani, pri povezavi na domačo stran, pa nisem uporabila posebnega razreda, le s pomočjo id sem uredila sliko-->
+        <ul>
+            <li class="iztocnica"><a href="o_scratchu.html">O Scratchu</a></li>
+            <li class="iztocnica"><a href="pomen_programiranja.html">Pomen programiranja</a></li>
+            <li><a href="index.html"><img src="slike/logo.svg" alt="logotip" id="logo"></a></li>
+            <li class="iztocnica"><a href="zakaj_scratch.html">Zakaj Scratch</a></li>
+            <li class="iztocnica_s_podstranmi"><a href="javascript:void(0)">Poučevanje v Scratchu</a> <!--href="javascript:void(0)" omogoča, da se s stranjo ob kliku na povezavo, ne zgodi nič-->
+                <!--podstran, ki se razdeli-->
+                <div class="vsebina_dropdown">
+                    <a href="poučevanje_v_scratchu.html">Poučevanje s Scratchom</a>
+                    <a href="primeri_nalog.html">Primeri nalog</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</header>
+<!--do tu, je koda enaka v vsaki podstani spletne strani-->
+
+<main>
+    <section>
+        <article>
+            <h2 class="podnaslov">UVOD</h2>
+            <!--za uvodni citat sem pri stilu uporabila kar stil navadnega odstavka ter v html kodi dodala sredinsko poravnavo. Ker ima stil v html kodi prednost, je namesto leve poravnave, upoštevana sredinska poravnava, ostale lastnosti pa ima enake kot navaden odstavek (privzame po razredu odstavek)-->
+            <p class="odstavek" style="text-align: center;"><i>"Vsakdo bi se moral naučiti programirati, ker te to nauči razmišljati." - Steve Jobs</i></p><br>
+                <br><!--izpusti vrstico-->
+                <!--slika z licenco-->
+                <img src="slike/otrok_prog.png" alt="otrok programira" id="otrok_prog">
+                <p class="licenca_besedilo"><a href="https://creativecommons.org">Otrok programira (ustvarjeno z umetno inteligenco ChatGPT)</a> © 2025 by <a href="https://creativecommons.org">Nastja Štrancar</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"></p>
+                <br><br><!--izpust vrstice-->
+                <p class="odstavek">Računalniki so pomemben del sveta, ki nadzorujejo vrstice programske kode. Koda je rezultat programiranja, ki je zapisana v določenem programskem jeziku. Programiranje pa je kompleksna veščina, saj vključuje in hkrati z učenjem spodbuja mnogo drugih spretnosti. Učenje programiranja je podobno učenju tujih jezikov, za katere velja, da jih otroci najlažje osvojijo v zgodnjem otroštvu. V tem obdobju so otroški možgani najbolj dovzetni za ustvarjanje sinaps, ki omogočajo, da nove vzorce hitreje osvojijo in jih ponotranjijo. Programski jezik, ki je bil ustvarjen z namenom učenja programiranja je Scratch. Je enostaven za uporabo in omogoča hitro učenje. Programiranje otrokom omogoča, da namesto pasivnih uporabnikov postanejo aktivni ustvarjalci, ki razvijajo logiko in spoznavajo, kaj vse je mogoče ustvariti z računalnikom. 
+            </p>
+        </article>
+    </section>
+    <a href="index.html" class="na_vrh">NA VRH</a>
+    <!--gumb s povezavo do iste strani, kar nas pripelje do vrha strani-->
+</main>
+
+<footer>
+<!--koda v footer-ju je na vseh straneh enaka-->
+<!--po navedbi povezav do virov sem dodala še atributr target: blank, ki omogoča, da se povezave odpirajo v novem zavihku-->
+    <p class="noga">VIRI IN LITERATURA
+        <br><br>
+        Burns, V. (2019, 10. september). <i>How to help your kids to learn to code.</i> BBC Science Focus Magazine. <a href="https://www.sciencefocus.com/future-technology/how-to-help-your-kids-to-learn-to-code" target="_blank">https://www.sciencefocus.com/future-technology/how-to-help-your-kids-to-learn-to-code</a><br>
+        Forum Media d.o.o. (2025, 20. maj). <i>ZOsn-L: Nova pravila za elektronske naprave, varnost in vzgojno ukrepanje v šolah.</i> e-Ravnatelj. <a href="https://e-ravnatelj.si/vsebine/aktualno/zosn-l-nova-pravila-za-elektronske-naprave-varnost-in-vzgojno-ukrepanje-v-solah/" target="_blank">https://e-ravnatelj.si/vsebine/aktualno/zosn-l-nova-pravila-za-elektronske-naprave-varnost-in-vzgojno-ukrepanje-v-solah/</a><br>
+        Kernc, A. (2022). <i>Scratch za učenje programiranja</i> [Diplomsko delo, A. Kernc]. Repozitorij samostojnih visokošolskih in višješolskih izobraževalnih organizacij. <a href="https://revis.openscience.si/IzpisGradiva.php?lang=slv&id=8817" target="_blank">https://revis.openscience.si/IzpisGradiva.php?lang=slv&id=8817</a><br>
+        Koron, A. (2021). <i>Razvoj računalniškega mišljenja skozi Scratch projekte</i> [Magistrsko delo, Univerza v Ljubljani, Pedagoška fakulteta]. Repozitorij UL. <a href="http://pefprints.pef.uni-lj.si/6710/" target="_blank">http://pefprints.pef.uni-lj.si/6710/</a><br>
+        Krajnc, R., Drinovec, A., Brodnik, A., Pesek, I., Nančovska Šerbec, I., Demšar, J., Žerovnik, A., & Lokar, M. (2013). <i>Program osnovna šola: Računalništvo - neobvezni izbirni predmet: Učni načrt </i>(1. izd.) [PDF]. Ministrstvo za izobraževanje, znanost in šport & Zavod RS za šolstvo. <a href="https://www.mizs.gov.si/fileadmin/mizs.gov.si/pageuploads/podrocje/os/devetletka/program_razsirjeni/Racunalnistvo_izbirni_neobvezni.pdf" target="_blank">https://www.mizs.gov.si/fileadmin/mizs.gov.si/pageuploads/podrocje/os/devetletka/program_razsirjeni/Racunalnistvo_izbirni_neobvezni.pdf</a><br>
+        Krauss, J., & Prottsman, K. (2017). <i>Computational thinking and coding for every student: The teacher's getting-started guide.</i> Corwin, SAGE Publishing Company.<br>
+        Lajovic, S. (2011). <i>Scratch: [nauči se programirati in postani računalniški maček]</i> (1. natis, str. 178). Pasadena.<br>
+        Mihalič, P. (2014). <i>Učenje programiranja v okolju Scratch </i>[Diplomsko delo, Univerza v Ljubljani, Fakulteta za računalništvo in informatiko]. e.Prints.FRI. <a href="http://eprints.fri.uni-lj.si/id/eprint/2626" target="_blank">http://eprints.fri.uni-lj.si/id/eprint/2626</a><br>
+        Vorderman, C. (2017). <i>Računalniško programiranje za otroke</i> (1. izd., str. 224). Mladinska knjiga.<br>
+        </p>
+        <br>
+    <a href="https://scratch.mit.edu/" target="_blank"><img src="slike/Scratch_Logo.svg.png" alt="logotip Scratcha" id="logo_scratch"></a>
+    <!--logotip spletne strani Scratch s povezavo do nje, poravnan desno-->
+    <p class="noga">LICENCE UPORABLJENIH SLIK<br><br>
+        <!--pri zapisu licenc v html sem si pomagala s kopiranjem pri generiranju le teh-->
+        "<a rel="noopener noreferrer" href="https://commons.wikimedia.org/w/index.php?curid=16245154" target="_blank">Scratch Logo</a>" by <a rel="noopener noreferrer" href="http://info.scratch.mit.edu/Community_Guidelines" target="_blank">http://info.scratch.mit.edu/Community_Guidelines</a> is licensed under <a rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-sa/3.0/?ref=openverse" target="_blank">CC BY-SA 3.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /></a>.<br>
+        <!--licenca za lasten logotip v navigaciji spletne strani, ki vodi na domačo stran-->
+        <a href="https://creativecommons.org" target="_blank">Logotip za spletno stran Programiranje za otroke v okolju Scratch</a> © 2025 by <a href="https://creativecommons.org" target="_blank">Nastja Štrancar</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"></p>
+    <!--licenca spletne strani-->
+    <p class="noga" style="text-align: center; margin-top: 40px;">
+    <a href="https://creativecommons.org" target="_blank">Spletna stran: Programiranje za otroke v okolju Scratch</a> © 2025 by <a href="https://creativecommons.org" target="_blank">Nastja Štrancar</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"></p>
+    </footer>
+</body>
+
+
+</html>

@@ -1,0 +1,239 @@
+/*GLAVA SPLETNE STRANI*/
+
+/*območje v glavi z naslovom*/
+header {
+    background-color: #F7A12A;
+}
+
+.glavni_naslov {
+    color: #042439;
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin-top: 0;
+}
+
+/*NAVIGACIJA SPLETNE STRANI*/
+
+/*oblika in stil vseh povezav v navigacijskem meniju*/
+.iztocnica a, .iztocnica_s_podstranmi a{
+    font-family: sans-serif;
+    color: #042439;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 7px;
+    background-color: #F7A12A;
+}
+
+/*razporeditev navigacijskega menija čez dolžino strani*/
+nav li {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 8%;
+}
+
+/*oblika in razporeditev menija, ki se pojavi ob stiku z miško*/
+.vsebina_dropdown{
+    display: none;
+    position: absolute;
+    width: 260px;
+    margin-top: 5px;
+}
+
+/*oblika in stil povezav v meniju, ki se pojavi po stiku z miško*/
+.vsebina_dropdown a{
+    color: #042439;
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: #84BCDA;
+}
+
+/*območje, kjer je navigacijski meni*/
+nav {
+    background-color: #84BCDA;
+}
+
+/*ob stiku z miško povezave spremenijo barvo ozadja (pravokotnika), ki je bil prej oranžne barve*/
+.iztocnica a:hover, .iztocnica_s_podstranmi a:hover {
+    background-color: #84BCDA;
+}
+
+/*omogoča, da se ob stiku z miško prikaže vsebina pod-podstrani in v obliki navpičnega bloka*/
+.iztocnica_s_podstranmi:hover .vsebina_dropdown{
+    display: block;
+}
+
+/*ob stiku z miško se ozadje spuščenega navigacijskega menija obarva oranžno*/
+.vsebina_dropdown a:hover{
+    background-color: #F7A12A;
+}
+
+/*TELO, VSEBINA SPLETNE STRANI*/
+/*barva same spletne strani (telesa); margin in padding nastavljena na 0 omogočata, da okoli celotne spletne strani odstranimo privzeti rob*/
+body {
+    background-color: #F0F0D2;
+    margin: 0;
+    padding: 0;
+}
+
+/*omogoča, da je na vsaki podstrani enak razmak med besedilom in nogo*/
+main{
+    margin-bottom: 150px;
+}
+
+/*za vsakim odstavkom spusti nekaj prostora*/
+article{
+    margin-bottom: 50px;
+}
+
+/*ker sem želela 'gumb na vrh' postaviti v sredino praznega prostora med besedilom in nogo, sem dodala prostor pri dnu section-a*/
+section{
+    margin-bottom: 100px;
+}
+
+/*oblika večjega podnaslovov na začetku podstrani*/
+.podnaslov{
+    color:  #042439;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+/*oblikovanje besedila */
+.odstavek{
+    color: #042439;
+    font-family: sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 25px;
+}
+
+/*oblika vsakega manjšega podnaslova*/
+.naslov_odstavka {
+    color:#042439;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: left;
+}
+
+/*dodan prostor pod alinejami v besedilu*/
+.odstavek li{
+    padding-bottom: 10px;
+}
+
+/*oblika besedila povezav v besedilu*/
+.odstavek a {
+    color: #042439;
+    font-family: sans-serif;
+}
+
+/*oblika povezav do rešitev v podstrani Primeri nalog*/
+.resitve_scratch {
+    color: #042439;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/*NOGA SPLETNE STRANI*/
+
+/*barva in veličine dodatnega prostora*/
+footer {
+    background-color:#84BCDA;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+/*oblika besedila v nogi*/
+.noga {
+    color: #042439;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+
+/*oblika besedila povezav v nogi*/
+.noga a{
+    color: #042439;
+}
+
+/*oblika 'gumba' na vrh*/
+.na_vrh{
+    color: #042439;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: #F7A12A;
+    border-radius: 3px;
+    padding: 10px;
+    margin-left: 750px;
+}
+
+/*ob stiku z miško na 'na vrh', ta spremeni barvo ozadja/pravokotnika*/
+.na_vrh:hover{
+    background-color: #F0F0D2;
+}
+
+/*oblika in stil besedila licenc*/
+.licenca_besedilo{
+    color: #042439;
+    font-size: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*oblika povezav v besedilu licenc*/
+.licenca_besedilo a{
+    color: #042439;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+/*SLIKE IN ANIMACIJE*/
+
+/*prilagoditev velikosti slike in dodan prostor pod njo*/
+#logo {
+    width: 100px;
+    margin-top: 10px;
+}
+
+/*prilagoditev velikosti slike, in prostor levo (da jo postavim v sredino) ter pod njo*/
+.graficni_vmesniki{
+    width: 1000px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+/*prilagoditev velikosti slike in 'poravnava na sredino'*/
+#otrok_prog{
+    width: 300px;
+    margin-left: 650px;
+}
+
+/*prilagoditev velikosti logotipa, poravnava na desno in dodan prostor na desni, da je logotip malo odmaknjen od roba*/
+#logo_scratch{
+    width: 150px;
+    float: right;
+    padding-right: 30px;
+}
+
+/*vstavljenim animacijam sem dodala prostor na levi, da sem jih premaknila v sredino*/
+iframe{
+    margin-left: 550px;
+}
+
